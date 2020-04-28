@@ -11,6 +11,6 @@ let headings = $$(headings)
 ### Example
 ```js
 import {$, $$} from 'qree';
-let button = $('nav > #click-me'); // Get the button with ID "click-me"
+let button = $(' #click-me'); // Get the button with ID "click-me"
 let headings = $$('article > h1'); // Get all H1 tags inside article
 ```
