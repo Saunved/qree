@@ -1,6 +1,6 @@
 {
   "name": "qree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tiny wrapper for document.querySelector and document.querySelectorAll",
   "main": "index.js",
   "scripts": {
