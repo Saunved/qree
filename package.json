@@ -1,10 +1,11 @@
 {
   "name": "qree",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny wrapper for document.querySelector and document.querySelectorAll",
-  "main": "index.js",
+  "main": "dist/qree.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "keywords": [
     "querySelector",
@@ -13,5 +14,12 @@
   ],
   "author": "saunved",
   "license": "ISC",
-  "repository": "github:Saunved/qree"
+  "repository": "github:Saunved/qree",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-umd": "^2.0.0"
+  }
 }
